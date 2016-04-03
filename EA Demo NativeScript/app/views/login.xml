@@ -1,0 +1,14 @@
+<Page loaded="load">
+    <StackLayout>
+        <Image source="{{ logoSource }}" />
+
+        <Label text="Username:" />
+        <TextField width="200" text="{{ username }}" id="username" hint="Username" />
+
+        <Label text="Password:" />
+        <TextField width="200" secure="true" text="{{ password }}" hint="Password" />
+
+        <Button text="Sign In" tap="signIn" />
+        <Button text="Sign up for Groceries" tap="register" />
+    </StackLayout>
+</Page>

@@ -1,0 +1,13 @@
+<Page navigatedTo="load">
+    <GridLayout rows="auto, *">
+        <StackLayout orientation="horizontal" row="0">
+            <TextField id="horse" width="200" text="{{ horse }}" hint="Enter a horse" />
+            <Button text="Add" tap="add"></Button>
+        </StackLayout>
+        <ListView items="{{ horses }}" row="1">
+            <ListView.itemTemplate>
+                <Label text="{{ name }}" />
+            </ListView.itemTemplate>
+        </ListView>
+    </GridLayout>
+</Page>

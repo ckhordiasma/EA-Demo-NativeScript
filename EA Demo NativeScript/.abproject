@@ -1,11 +1,11 @@
 {
-  "ProjectName": "Grocery List Native",
+  "ProjectName": "EA Demo NativeScript",
   "ProjectGuid": "934bfac0-87ed-46ba-8849-974cd5fce28b",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.GroceryListNative",
-  "DisplayName": "Grocery List Native",
+  "AppIdentifier": "com.telerik.EADemoNativeScript",
+  "DisplayName": "EA Demo Native",
   "Author": "",
-  "Description": "Grocery List Native",
+  "Description": "EA Demo in NativeScript",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [

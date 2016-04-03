@@ -1,3 +1,3 @@
 var application = require( "application" );
-application.mainModule = "./views/list";
+application.mainModule = "./views/login";
 application.start();
